@@ -17,6 +17,9 @@ public class PlayerController : NetworkBehaviour {
 	void Start () {
 		
 		rb = GetComponent<Rigidbody> ();
+	}
+
+	public override void OnStartLocalPlayer() {
 		GetComponent<MeshRenderer>().material.color = Color.black;
 		
 	}
@@ -42,7 +45,6 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	private void OnCollisionEnter(Collision other) {
-//		other.gameObject.GetComponent<Rigidbody>().AddForce();
 		jumps = 0;
 	}
 }
