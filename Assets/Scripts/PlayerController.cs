@@ -31,7 +31,6 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	private void OnCollisionEnter(Collision other) {
-//		other.gameObject.GetComponent<Rigidbody>().AddForce();
 		jumps = 0;
 	}
 }
