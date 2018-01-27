@@ -5,7 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 	Rigidbody rb;
 
-	private bool grounded = true;
+	private int jumps = 0;
+
+	public int maxJumps = 2;
 	
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
@@ -14,13 +16,13 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 		rb.velocity = new Vector3 (Input.GetAxis ("Horizontal") * 10, rb.velocity.y, rb.velocity.z);
 
-		if (Input.GetAxis ("Jump") > 0 && grounded) {
+		if (Input.GetKeyDown("space") && jumps < maxJumps) {
 			rb.AddForce (0, 500, 0);
-			grounded = false;
+			jumps++;
 		}
 	}
 
 	private void OnCollisionEnter(Collision other) {
-		grounded = true;
+		jumps = 0;
 	}
 }
