@@ -12,6 +12,9 @@ public class PlayerController : NetworkBehaviour {
 	
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
+	}
+
+	public override void OnStartLocalPlayer() {
 		GetComponent<MeshRenderer>().material.color = Color.black;
 	}
 
