@@ -18,7 +18,7 @@ public class PlayerController : NetworkBehaviour {
 		GetComponent<MeshRenderer>().material.color = Color.black;
 	}
 
-	void Update () {
+	void FixedUpdate () {
 		if (!isLocalPlayer)
 			return;
 		
