@@ -5,37 +5,28 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 public class PlayerController : NetworkBehaviour {
+	public int maxJumps = 2;
+	public int maxLives = 3;
+	
 	public GameObject projectile;
 	public GameObject bulletSpawnPoint;
 	public float bulletSpeed = 1;
-
 	public GameObject bullet;
 	public Transform bulletSpawn;
-
 	public Vector4 boundingBox;
-	
 	Rigidbody rb;
 
-	private int jumps = 0;
-
-	public int maxJumps = 2;
-
-	public GameObject child;
-
 	public float jumpHeight = 13;
-
 	public NetworkManager manager;
 
-	public int maxLives = 3;
-
-	private int lives;
-
-	[SyncVar]
-	public float health = 0;
-
+	[SyncVar] private int lives;
+	[SyncVar] public float health = 0;
+	
+	public GameObject child;
 	public GameObject spawnAnim;
-
 	public GameObject deathAnim;
+
+	private int jumps = 0;
 	
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
@@ -57,9 +48,7 @@ public class PlayerController : NetworkBehaviour {
 			death();
 		}
 		
-		if (!isLocalPlayer) {
-			return;
-		}
+		if (!isLocalPlayer) return;
 
 		rb.velocity = new Vector3 (Input.GetAxis ("Horizontal") * 10, rb.velocity.y, rb.velocity.z);
 
@@ -72,14 +61,14 @@ public class PlayerController : NetworkBehaviour {
 	private void death() {
 		if (!isServer) return;
 		
-		lives--;
-		
 		RpcRespawn();
 		CmdDeath();
 	}
 
 	[ClientRpc]
 	void RpcRespawn() {
+		lives--;
+		
 		if (!isLocalPlayer) return;
 		
 		var spawn = Random.Range(0, manager.spawnPrefabs.Count - 1);
@@ -99,10 +88,11 @@ public class PlayerController : NetworkBehaviour {
 	[Command]
     public void CmdFire() {
         var go = Instantiate(bullet);
-         
+        
         go.transform.position = bulletSpawn.position;
         go.GetComponent<Rigidbody>().velocity = bulletSpawn.transform.forward * 10;
-
+		go.GetComponent<Rigidbody>().transform.LookAt(bulletSpawn.transform.forward * 10);
+		
         NetworkServer.Spawn(go);
     }
 
