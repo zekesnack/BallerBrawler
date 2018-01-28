@@ -20,5 +20,16 @@ public class gunControls : MonoBehaviour {
     }
 
     void Update() {
+        if (!isPlayer) return;
+        // Get the direction between the shoulder and mouse (aka the target position)
+        var shoulderToMouseDir =
+            Input.mousePosition - Camera.main.WorldToScreenPoint(Player.position);
+
+        shoulderToMouseDir.z = 0; // zero z axis since we are using 2d
+        // we normalize the new direction so you can make it the arm's length
+        // then we add it to the shoulder's position
+        transform.position = Player.position + (armLength * shoulderToMouseDir.normalized);
+
+        transform.LookAt((transform.position - transform.parent.position).normalized * 500);
     }
 }
