@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c878bb4-44c9-48b7-b42c-e93e5957588b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cinemachine/CinemachineExamples.unitypackage.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cinemachine/Timeline/LegacyTimelineAPI.unitypackage.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" afterPath="$PROJECT_DIR$/Assets/Player.prefab" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/networkTest_Data.zip" afterPath="$PROJECT_DIR$/networkTest_Data.zip" />
       <change beforePath="$PROJECT_DIR$/networkTest_Data/Managed/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/networkTest_Data/Managed/Assembly-CSharp.dll" />
       <change beforePath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers" afterPath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers" />
       <change beforePath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers.assets" afterPath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers.assets" />
       <change beforePath="$PROJECT_DIR$/networkTest_Data/level0" afterPath="$PROJECT_DIR$/networkTest_Data/level0" />
-      <change beforePath="$PROJECT_DIR$/networkTest_Data/level0.resS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/networkTest_Data/sharedassets0.assets" afterPath="$PROJECT_DIR$/networkTest_Data/sharedassets0.assets" />
-      <change beforePath="$PROJECT_DIR$/networkTest_Data/sharedassets0.assets.resS" afterPath="$PROJECT_DIR$/networkTest_Data/sharedassets0.assets.resS" />
+      <change beforePath="$PROJECT_DIR$/networkTest_Data/sharedassets1.assets" afterPath="$PROJECT_DIR$/networkTest_Data/sharedassets1.assets" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,23 +24,23 @@
       <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+            <state relative-caret-position="953">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
-                <marker date="1517120358919" expanded="false" signature="6:126" ph="..." />
-                <marker date="1517120358919" expanded="true" signature="177:2581" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="695:855" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="752:852" ph="/* var spawn = Instantiate(spawnAnim); ... */" />
-                <marker date="1517120358919" expanded="true" signature="900:965" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="988:1552" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="1258:1275" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="1459:1549" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="1576:1638" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="1672:1887" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="1927:1943" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="1994:2011" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="2051:2364" ph="{...}" />
-                <marker date="1517120358919" expanded="true" signature="2394:2579" ph="{...}" />
+                <marker date="1517123831952" expanded="false" signature="6:126" ph="..." />
+                <marker date="1517123831952" expanded="true" signature="177:2581" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="695:855" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="752:852" ph="/* var spawn = Instantiate(spawnAnim); ... */" />
+                <marker date="1517123831952" expanded="true" signature="900:965" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="988:1552" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="1258:1275" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="1459:1549" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="1576:1638" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="1672:1887" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="1927:1943" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="1994:2011" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="2051:2364" ph="{...}" />
+                <marker date="1517123831952" expanded="true" signature="2394:2579" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -201,7 +198,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16974000" />
+    <option name="totallyTimeSpent" value="18475000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,23 +519,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        <state relative-caret-position="953">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <marker date="1517120358919" expanded="false" signature="6:126" ph="..." />
-            <marker date="1517120358919" expanded="true" signature="177:2581" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="695:855" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="752:852" ph="/* var spawn = Instantiate(spawnAnim); ... */" />
-            <marker date="1517120358919" expanded="true" signature="900:965" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="988:1552" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="1258:1275" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="1459:1549" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="1576:1638" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="1672:1887" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="1927:1943" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="1994:2011" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="2051:2364" ph="{...}" />
-            <marker date="1517120358919" expanded="true" signature="2394:2579" ph="{...}" />
+            <marker date="1517123831952" expanded="false" signature="6:126" ph="..." />
+            <marker date="1517123831952" expanded="true" signature="177:2581" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="695:855" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="752:852" ph="/* var spawn = Instantiate(spawnAnim); ... */" />
+            <marker date="1517123831952" expanded="true" signature="900:965" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="988:1552" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="1258:1275" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="1459:1549" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="1576:1638" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="1672:1887" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="1927:1943" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="1994:2011" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="2051:2364" ph="{...}" />
+            <marker date="1517123831952" expanded="true" signature="2394:2579" ph="{...}" />
           </folding>
         </state>
       </provider>

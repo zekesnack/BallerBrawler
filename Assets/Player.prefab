@@ -59,7 +59,6 @@ GameObject:
   - component: {fileID: 114965671808405598}
   - component: {fileID: 114823028440224756}
   - component: {fileID: 114756316705141466}
-  - component: {fileID: 114824691529733742}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -678,6 +677,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a5332fba27ce74d88680b228ba995c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxJumps: 2
+  maxLives: 3
   projectile: {fileID: 1877657880450708, guid: 64445596008e5b745899ecff2622d56b, type: 2}
   bulletSpawnPoint: {fileID: 1996502992472538, guid: c89a6eab476c1b04facdb483b212705e,
     type: 2}
@@ -685,12 +686,10 @@ MonoBehaviour:
   bullet: {fileID: 1462008822415310, guid: 6992b49fa2b3f624c9a79f372606749b, type: 2}
   bulletSpawn: {fileID: 4578734697195444}
   boundingBox: {x: -30, y: -10, z: 30, w: 10}
-  maxJumps: 2
-  child: {fileID: 1368395921753278}
   jumpHeight: 13
   manager: {fileID: 114852642799432134, guid: e3cfe4d3fda212c448ead3ae16e13654, type: 2}
-  maxLives: 3
   health: 0
+  child: {fileID: 1368395921753278}
   spawnAnim: {fileID: 100000, guid: b61f84ac228bf9f4e9f19310d98d6383, type: 2}
   deathAnim: {fileID: 1843755023118514, guid: 0b68c142c5998ee409d558dd7ef5409d, type: 2}
 --- !u!114 &114756316705141466
@@ -748,18 +747,6 @@ MonoBehaviour:
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
   m_InterpolateMovement: 1
---- !u!114 &114824691529733742
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1272855729532976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2417ceb37588d084c94f3931f49e2d64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHealth: 100
 --- !u!114 &114965671808405598
 MonoBehaviour:
   m_ObjectHideFlags: 1
