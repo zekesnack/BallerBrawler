@@ -8,6 +8,9 @@ public class PlayerController : NetworkBehaviour {
 	public GameObject projectile;
 	public GameObject bulletSpawnPoint;
 	public float bulletSpeed = 1;
+
+	public GameObject bullet;
+	public Transform bulletSpawn;
 	
 	Rigidbody rb;
 
@@ -18,9 +21,11 @@ public class PlayerController : NetworkBehaviour {
 	public GameObject child;
 
 	public float jumpHeight = 13;
+
+	[SyncVar]
+	public float health = 0;
 	
 	void Start () {
-		
 		rb = GetComponent<Rigidbody> ();
 	}
 
@@ -30,6 +35,8 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	void FixedUpdate () {
+		transform.localScale = new Vector3(1 + 0.1F * health, 1 + 0.1F * health, 1 + 0.1F * health);
+		
 		if (!isLocalPlayer) {
 			return;
 		}
@@ -45,4 +52,23 @@ public class PlayerController : NetworkBehaviour {
 	private void OnCollisionEnter(Collision other) {
 		jumps = 0;
 	}
+
+	[ClientRpc]
+	public void RpcDamage() {
+		if (!isServer) {
+			return;
+		}
+
+		health++;
+	}
+	
+	[Command]
+    public void CmdFire() {
+        var go = Instantiate(bullet);
+         
+        go.transform.position = bulletSpawn.position;
+        go.GetComponent<Rigidbody>().velocity = bulletSpawn.transform.forward * 10;
+
+        NetworkServer.Spawn(go);
+    }
 }

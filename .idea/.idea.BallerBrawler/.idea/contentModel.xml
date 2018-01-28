@@ -29,7 +29,6 @@
             <e p="LICENSE.txt" t="Include" />
           </e>
         </e>
-        <e p="Health.cs" t="Include" />
         <e p="LoadSceneOnClick.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="UI-Default-No-Alpha.shader" t="Include" />

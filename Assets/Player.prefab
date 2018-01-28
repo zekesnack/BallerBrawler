@@ -62,7 +62,7 @@ GameObject:
   - component: {fileID: 114824691529733742}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,7 +265,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1076612052520868}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0595, z: 0.1428}
+  m_LocalPosition: {x: 0, y: 0.0595, z: 0.1524}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4330241799467094}
@@ -665,7 +665,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 120
   m_CollisionDetection: 1
 --- !u!114 &114476436338970148
 MonoBehaviour:
@@ -682,6 +682,8 @@ MonoBehaviour:
   bulletSpawnPoint: {fileID: 1996502992472538, guid: c89a6eab476c1b04facdb483b212705e,
     type: 2}
   bulletSpeed: 1
+  bullet: {fileID: 1462008822415310, guid: 6992b49fa2b3f624c9a79f372606749b, type: 2}
+  bulletSpawn: {fileID: 4578734697195444}
   maxJumps: 2
   child: {fileID: 1368395921753278}
   jumpHeight: 13
