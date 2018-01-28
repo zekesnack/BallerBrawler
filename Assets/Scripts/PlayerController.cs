@@ -8,12 +8,6 @@ public class PlayerController : NetworkBehaviour {
 	public int maxJumps = 2;
 	public int maxLives = 3;
 	
-	public GameObject projectile;
-	public GameObject bulletSpawnPoint;
-	public float bulletSpeed = 10;
-	public float bulletDamage = 1;
-	public GameObject bullet;
-	public Transform bulletSpawn;
 	public Vector4 boundingBox;
 	Rigidbody rb;
 
@@ -23,11 +17,18 @@ public class PlayerController : NetworkBehaviour {
 	[SyncVar] private int lives;
 	[SyncVar] public float health = 0;
 	
-	public GameObject child;
+	public GameObject pistol;
+	public GameObject sniper;
 	public GameObject spawnAnim;
 	public GameObject deathAnim;
-
+	
+	
+	public int clas = 0;
 	private int jumps = 0;
+	private NetworkStartPosition[] spawnPoints;
+
+	private GameObject gun;
+	private gunControls gunControls;
 	
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
@@ -35,6 +36,23 @@ public class PlayerController : NetworkBehaviour {
 //		var spawn = Instantiate(spawnAnim);
 //		spawn.transform.localScale *= 3;
 //		Destroy(spawn, 1f);
+		if (isLocalPlayer) {
+			spawnPoints = FindObjectsOfType<NetworkStartPosition>();
+		}
+		
+		switch (clas) {
+			case 0:
+				pistol.SetActive(true);
+				gun = pistol;
+				break;
+			case 1:
+				sniper.SetActive(true);
+				gun = sniper;
+				break;
+		}
+
+		gunControls = gun.GetComponent<gunControls>();
+		GetComponent<NetworkTransformChild>().target = gun.transform;
 	}
 
 	public override void OnStartLocalPlayer() {
@@ -42,6 +60,7 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	void FixedUpdate () {
+		
 		transform.localScale = new Vector3(1 + 0.1F * health, 1 + 0.1F * health, 1 + 0.1F * health);
 		
 		if (transform.position.x < boundingBox.x || transform.position.x > boundingBox.z ||
@@ -72,14 +91,23 @@ public class PlayerController : NetworkBehaviour {
 		
 		if (!isLocalPlayer) return;
 		
-		var spawn = Random.Range(0, manager.spawnPrefabs.Count - 1);
-		transform.position = manager.spawnPrefabs[spawn].transform.position;
+		// Set the spawn point to origin as a default value
+		Vector3 spawnPoint = Vector3.zero;
+
+		// If there is a spawn point array and the array is not empty, pick a spawn point at random
+		if (spawnPoints != null && spawnPoints.Length > 0) {
+			spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)].transform.position;
+		}
+
+		// Set the player’s position to the chosen spawn point
+		transform.position = spawnPoint;
+		
 		rb.velocity = Vector3.zero;
 	}
 
 	[ClientRpc]
 	public void RpcDamage() {
-		health+=bulletDamage;
+		health += gunControls.bulletDamage;
 	}
 	
 	private void OnCollisionEnter(Collision other) {
@@ -88,11 +116,11 @@ public class PlayerController : NetworkBehaviour {
 	
 	[Command]
     public void CmdFire() {
-        var go = Instantiate(bullet);
+        var go = Instantiate(gunControls.bullet);
         
-        go.transform.position = bulletSpawn.position;
-        go.GetComponent<Rigidbody>().velocity = bulletSpawn.transform.forward * 10;
-		go.GetComponent<Rigidbody>().transform.LookAt(bulletSpawn.transform.forward * bulletSpeed);
+        go.transform.position = gunControls.bulletSpawn.position;
+        go.GetComponent<Rigidbody>().velocity = gunControls.bulletSpawn.transform.forward * 10;
+		go.GetComponent<Rigidbody>().transform.LookAt(gunControls.bulletSpawn.transform.forward * gunControls.bulletSpeed);
 		
         NetworkServer.Spawn(go);
     }

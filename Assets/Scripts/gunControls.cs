@@ -13,14 +13,15 @@ public class gunControls : MonoBehaviour {
 
     private bool isPlayer;
 
-    public GameObject bullet;
-    
-    public Transform bulletSpawn;
-
     private bool isFiring = false;
     private bool isInCoroutine = false;
 
     public float fireRate = 1;
+    
+    public float bulletSpeed = 10;
+    public float bulletDamage = 1;
+    public GameObject bullet;
+    public Transform bulletSpawn;
 
     void Start() {
         // if the sword is child object, this is the transform of the character (or shoulder)
