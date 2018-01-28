@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Xml;
+//using System.Diagnostics.Eventing.Reader;
+//using System.Xml;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : NetworkBehaviour {
 	public int maxJumps = 2;
-	public int maxLives = 3;
+	public int maxLives = 4;
 	
 	public GameObject projectile;
 	public GameObject bulletSpawnPoint;
@@ -61,17 +63,15 @@ public class PlayerController : NetworkBehaviour {
 
 	private void death() {
 		if (!isServer) return;
-<<<<<<< HEAD
-		if (lives == 1) {
-			
+		if (lives <= 1) {
+			CmdDeath();
+			gameOver();
 		}
-		lives--;
-		gameOver();
-=======
-		
->>>>>>> e9527cf118558e69eb4386ae9241b9cf37d840cb
-		RpcRespawn();
-		CmdDeath();
+		else {
+			print("else " + lives);
+			RpcRespawn();
+			CmdDeath();
+		}
 	}
 
 	[ClientRpc]
@@ -118,6 +118,13 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	void gameOver() {
+		print(lives);
+		endGameTimer();
+		Destroy(gameObject);
 		Instantiate(fireworks);
+	}
+	IEnumerable endGameTimer() {
+		yield return new WaitForSeconds(5);
+		SceneManager.LoadScene(0);
 	}
 }
