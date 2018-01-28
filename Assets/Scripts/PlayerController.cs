@@ -14,6 +14,13 @@ public class PlayerController : NetworkBehaviour {
 	private int jumps = 0;
 
 	public int maxJumps = 2;
+
+	public GameObject child;
+
+	public float jumpHeight = 13;
+
+	[SyncVar]
+	public Transform childtran;
 	
 	void Start () {
 		
@@ -26,15 +33,20 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	void FixedUpdate () {
-		if (!isLocalPlayer)
+		if (!isLocalPlayer) {
+//			child.transform.position = childtran.position;
+//			child.transform.rotation = childtran.rotation;
+//			child.transform.localScale = childtran.transform.localScale;
 			return;
-		
+		}
+
 		rb.velocity = new Vector3 (Input.GetAxis ("Horizontal") * 10, rb.velocity.y, rb.velocity.z);
 
 		if (Input.GetKeyDown("space") && jumps < maxJumps) {
-			rb.AddForce (0, 500, 0);
+			rb.velocity = new Vector3 (rb.velocity.x, jumpHeight, rb.velocity.z);
 			jumps++;
 		}
+
 
 		if (Input.GetMouseButtonDown(0)) {
 			++i;
@@ -44,6 +56,7 @@ public class PlayerController : NetworkBehaviour {
 			
 
 		}
+
 	}
 
 	private void OnCollisionEnter(Collision other) {

@@ -2,296 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c878bb4-44c9-48b7-b42c-e93e5957588b" name="Default" comment="">
-<<<<<<< HEAD
-<<<<<<< HEAD
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/New Physic Material.physicMaterial" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/New Physic Material.physicMaterial.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/gunControls.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/networkTest_Data.zip" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pistol.fbx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pistol.fbx.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" afterPath="$PROJECT_DIR$/Assets/Player.prefab" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" />
-=======
-      <change beforePath="$PROJECT_DIR$/Assets/main.unity" afterPath="$PROJECT_DIR$/Assets/main.unity" />
->>>>>>> 40da30941ddb43331345376869cd8fd9f5ea1012
-=======
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/ARENA.prefab" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/ARENA.prefab.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Arena Model.blend" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Arena Model.blend.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/Arena Example.unity" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/Arena Example.unity.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Scripts.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Shaders.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Shaders/SSAOShader.shader" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Shaders/SSAOShader.shader.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Textures.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Textures/RandomVectors.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Textures/RandomVectors.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/DustStorm.prefab" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/DustStorm.prefab.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleDuststorm.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleDuststorm.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleFirecloud.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleFirecloud.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleFlames.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleFlames.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleGlow.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleGlow.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSmokeBlack.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSmokeBlack.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSmokeVertlit.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSmokeVertlit.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSpark.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSpark.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Scripts.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Scripts/ParticleSystemMultiplier.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Scripts/ParticleSystemMultiplier.cs.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleCloudBlack.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleCloudBlack.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleCloudWhite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleCloudWhite.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleFirecloud.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleFirecloud.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleFlamesSheet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleFlamesSheet.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/Spark.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/Spark.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/1d86f5d5bc2bda704eef5ff3ff0c2ab2.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/1d86f5d5bc2bda704eef5ff3ff0c2ab2.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/69777695cf0d4f5c010beee49ad17c85.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/69777695cf0d4f5c010beee49ad17c85.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Chair.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Chair.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/ChairStand.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/ChairStand.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Cube_1_2__materials_Cube_1_2_png.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Cube_1_2__materials_Cube_1_2_png.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceBars01.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceBars01.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceBars02.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceBars02.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceGround.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceGround.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/FenceGlass.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/FenceGlass.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/FenceMetalBars.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/FenceMetalBars.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Floor.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Floor.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/FlyingPlatform.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/FlyingPlatform.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Glass.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Glass.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/LargeFence.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/LargeFence.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Material_002__vintgae-red-holiday-table-cloth-hand-painted-ca-california-line.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Material_002__vintgae-red-holiday-table-cloth-hand-painted-ca-california-line.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/None__Chair_jpg.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/None__Chair_jpg.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/None__entrance2_png.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/None__entrance2_png.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/None__entrance_png.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/None__entrance_png.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Stone-Block-Texture.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/Stone-Block-Texture.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/StoneTiles.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/StoneTiles.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/StoneWalls.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/StoneWalls.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopGlass_Bottom.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopGlass_Bottom.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopGlass_Top.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopGlass_Top.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopPanelFlag.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopPanelFlag.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopPanelWood.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopPanelWood.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopShield.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/TopShield.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/_concrete_11__granite_wall_smooth_dirt_pillar__by_hhh316-d7mhl6y.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/_concrete_11__granite_wall_smooth_dirt_pillar__by_hhh316-d7mhl6y.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/entrance.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/entrance.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/entrance2.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/entrance2.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/fdb6e3a9c6082adca17b5870a3613745.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/fdb6e3a9c6082adca17b5870a3613745.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/fire_PNG6032.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/fire_PNG6032.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/materials_Cube_1_2.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/materials_Cube_1_2.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/unnamed.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/unnamed.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/vintgae-red-holiday-table-cloth-hand-painted-ca-california-linens-usa-home-0039-80e4b212338a73769ea50e3a8b6adfa6.mat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Materials/vintgae-red-holiday-table-cloth-hand-painted-ca-california-linens-usa-home-0039-80e4b212338a73769ea50e3a8b6adfa6.mat.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Arena.blend" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Arena.blend.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Arena.fbx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Arena.fbx.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Chair.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Corner.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Floor.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Mat.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Octagon Stairs.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Octagon door.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Screen Texture.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/arena roof.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/base floor and stairs texture.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/cage sides bump.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/cage sides texture.png.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/cage sides texture2.png.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/cage sides.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance lights glow.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance lights.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance lights.png.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance texture 1.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance texture 2.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance texture 3.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance way lights glow.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance way.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance.png.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance2.png.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/floor2.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/main entrance.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/octagon door texture.png.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/octagon mat.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/ramp lights glow.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/ramp.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/roof lights glow.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/roof lights.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/roof.png.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/roof2.png.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/rope.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light - Copy.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light glow.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light glow2.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light2.jpg.swatch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/1d86f5d5bc2bda704eef5ff3ff0c2ab2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/1d86f5d5bc2bda704eef5ff3ff0c2ab2.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/69777695cf0d4f5c010beee49ad17c85.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/69777695cf0d4f5c010beee49ad17c85.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Arena Walls lights.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Arena Walls lights.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Arena Walls.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Arena Walls.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Chair.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Chair.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Floor.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Floor.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Glass.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Glass.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Octagon Stairs.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Octagon Stairs.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Stairs and floor.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Stairs and floor.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Stone-Block-Texture.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Stone-Block-Texture.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/_concrete_11__granite_wall_smooth_dirt_pillar__by_hhh316-d7mhl6y.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/_concrete_11__granite_wall_smooth_dirt_pillar__by_hhh316-d7mhl6y.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/arena roof.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/arena roof.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/bca1cd109a91e331835761ffc2710f82.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/bca1cd109a91e331835761ffc2710f82.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/c70ff3767fa395d716d866bee8f639bc.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/c70ff3767fa395d716d866bee8f639bc.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/cage sides texture.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/cage sides texture.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/cage sides texture2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/cage sides texture2.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance lights glow.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance lights glow.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance lights.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance lights.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 1.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 2.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 3.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance way lights glow.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance way lights glow.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance way.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance way.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance2.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/fdb6e3a9c6082adca17b5870a3613745.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/fdb6e3a9c6082adca17b5870a3613745.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/fire_PNG6032.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/fire_PNG6032.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/floor2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/floor2.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/main entrance.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/main entrance.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/materials_Cube_1_2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/materials_Cube_1_2.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon cage texture.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon cage texture.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon door texture.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon door texture.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon mat.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon mat.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/ramp lights glow.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/ramp lights glow.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/ramp.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/ramp.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof lights glow.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof lights glow.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof lights.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof lights.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/spot light - Copy.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/spot light - Copy.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/spot light glow.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/spot light glow.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/vintgae-red-holiday-table-cloth-hand-painted-ca-california-linens-usa-home-0039-80e4b212338a73769ea50e3a8b6adfa6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Models/Textures/vintgae-red-holiday-table-cloth-hand-painted-ca-california-linens-usa-home-0039-80e4b212338a73769ea50e3a8b6adfa6.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/ChairStand.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/ChairStand.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/EntranceGround.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/EntranceGround.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/FenceMetalBars.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/FenceMetalBars.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/Floor.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/Floor.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/IronBars01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/IronBars01.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/IronBars02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/IronBars02.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/StoneTiles.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/StoneTiles.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/StoneWalls.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/StoneWalls.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/TopGlass.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/TopGlass.png.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/TopPanelFlag.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/TopPanelFlag.jpg.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/TopShield.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Arena/Textures/TopShield.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci-Fi Weapons.meta" afterPath="$PROJECT_DIR$/Assets/Sci-Fi Weapons.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci-Fi Weapons/Base Pack/Example.unity" afterPath="$PROJECT_DIR$/Assets/Sci-Fi Weapons/Base Pack/Example.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/gunControls.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/gunControls.cs.meta" afterPath="$PROJECT_DIR$/Assets/Scripts/gunControls.cs.meta" />
       <change beforePath="$PROJECT_DIR$/networkTest_Data/Managed/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/networkTest_Data/Managed/Assembly-CSharp.dll" />
       <change beforePath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers" afterPath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers" />
       <change beforePath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers.assets" afterPath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers.assets" />
       <change beforePath="$PROJECT_DIR$/networkTest_Data/level0" afterPath="$PROJECT_DIR$/networkTest_Data/level0" />
       <change beforePath="$PROJECT_DIR$/networkTest_Data/sharedassets0.assets" afterPath="$PROJECT_DIR$/networkTest_Data/sharedassets0.assets" />
->>>>>>> f62b5766fcd293e75ae921e44719d9f7457b0e42
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -301,48 +28,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="689">
-              <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+              <caret line="62" column="12" lean-forward="false" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
               <folding>
-                <marker date="1517089841074" expanded="true" signature="6:126" ph="..." />
-                <marker date="1517089841074" expanded="true" signature="177:1206" ph="{...}" />
-                <marker date="1517089841074" expanded="true" signature="362:468" ph="{...}" />
-                <marker date="1517089841074" expanded="true" signature="486:1078" ph="{...}" />
-                <marker date="1517089841074" expanded="true" signature="673:718" ph="{...}" />
-                <marker date="1517089841074" expanded="true" signature="755:1075" ph="{...}" />
-                <marker date="1517089841074" expanded="true" signature="1128:1204" ph="{...}" />
-=======
-            <state relative-caret-position="864">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-              <folding>
-                <marker date="1517087854777" expanded="true" signature="6:108" ph="..." />
-                <marker date="1517087854777" expanded="true" signature="159:716" ph="{...}" />
-                <marker date="1517087854777" expanded="true" signature="245:284" ph="{...}" />
-                <marker date="1517087854777" expanded="true" signature="329:394" ph="{...}" />
-                <marker date="1517087854777" expanded="true" signature="412:647" ph="{...}" />
-                <marker date="1517087854777" expanded="true" signature="599:644" ph="{...}" />
-                <marker date="1517087854777" expanded="true" signature="697:714" ph="{...}" />
->>>>>>> 40da30941ddb43331345376869cd8fd9f5ea1012
-=======
-    <leaf>
-      <file leaf-file-name="gunControls.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/gunControls.cs">
+                <marker date="1517100873840" expanded="false" signature="6:126" ph="..." />
+                <marker date="1517100873840" expanded="true" signature="177:1384" ph="{...}" />
+                <marker date="1517100873840" expanded="true" signature="482:524" ph="{...}" />
+                <marker date="1517100873840" expanded="true" signature="569:637" ph="{...}" />
+                <marker date="1517100873840" expanded="true" signature="660:1315" ph="{...}" />
+                <marker date="1517100873840" expanded="true" signature="684:870" ph="{...}" />
+                <marker date="1517100873840" expanded="true" signature="686:855" ph="/* child.transform.position = childtran.position; ... */" />
+                <marker date="1517100873840" expanded="true" signature="1021:1111" ph="{...}" />
+                <marker date="1517100873840" expanded="true" signature="1149:1311" ph="{...}" />
+                <marker date="1517100873840" expanded="true" signature="1365:1382" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gunControls.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="2" />
               <folding>
-                <marker date="1517091314551" expanded="true" signature="6:92" ph="..." />
-                <marker date="1517091314551" expanded="true" signature="135:1213" ph="{...}" />
-                <marker date="1517091314551" expanded="true" signature="305:436" ph="{...}" />
-                <marker date="1517091314551" expanded="true" signature="453:1211" ph="{...}" />
-                <marker date="1517091314551" expanded="true" signature="770:886" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
->>>>>>> f62b5766fcd293e75ae921e44719d9f7457b0e42
+                <marker date="1517100468248" expanded="false" signature="6:122" ph="..." />
+                <marker date="1517100468248" expanded="true" signature="165:1259" ph="{...}" />
+                <marker date="1517100468248" expanded="true" signature="377:608" ph="{...}" />
+                <marker date="1517100468248" expanded="true" signature="628:1257" ph="{...}" />
+                <marker date="1517100468248" expanded="true" signature="943:1065" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
               </folding>
             </state>
           </provider>
@@ -354,18 +72,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-<<<<<<< HEAD
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestProjectile.cs" root0="FORCE_HIGHLIGHTING" />
-=======
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/09BDEC15-3D4A-4923-9DE8-6334A139CA2F/a0/2ccd4fb2/GraphicsUnit.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/gunControls.cs" root0="FORCE_HIGHLIGHTING" />
->>>>>>> f62b5766fcd293e75ae921e44719d9f7457b0e42
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/gunControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/gunControls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
@@ -377,13 +92,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
-    <option name="x" value="-1623" />
+    <option name="x" value="297" />
     <option name="y" value="-24" />
-=======
-    <option name="x" value="1220" />
-    <option name="y" value="530" />
->>>>>>> 40da30941ddb43331345376869cd8fd9f5ea1012
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -409,36 +119,6 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="BallerBrawler (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="BallerBrawler (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="BallerBrawler (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="BallerBrawler (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="PostProcessing" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="BallerBrawler (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="BallerBrawler (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -480,25 +160,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517081451301</updated>
-<<<<<<< HEAD
-      <workItem from="1517081452427" duration="2761000" />
-      <workItem from="1517084675819" duration="6412000" />
-=======
       <workItem from="1517081452427" duration="5329000" />
->>>>>>> 40da30941ddb43331345376869cd8fd9f5ea1012
+      <workItem from="1517100840891" duration="114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="9173000" />
-=======
-    <option name="totallyTimeSpent" value="5329000" />
->>>>>>> 40da30941ddb43331345376869cd8fd9f5ea1012
-=======
-    <option name="totallyTimeSpent" value="5343000" />
->>>>>>> f62b5766fcd293e75ae921e44719d9f7457b0e42
+    <option name="totallyTimeSpent" value="9451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,64 +178,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <frame x="-1929" y="-9" width="1938" height="1048" extended-state="6" />
-=======
-    <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
->>>>>>> 40da30941ddb43331345376869cd8fd9f5ea1012
-=======
-    <frame x="-13" y="-13" width="3226" height="1766" extended-state="6" />
->>>>>>> f62b5766fcd293e75ae921e44719d9f7457b0e42
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1765625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> f62b5766fcd293e75ae921e44719d9f7457b0e42
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
->>>>>>> f62b5766fcd293e75ae921e44719d9f7457b0e42
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,35 +215,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517089841074" expanded="true" signature="6:126" ph="..." />
-            <marker date="1517089841074" expanded="true" signature="177:1206" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="362:468" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="486:1078" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="673:718" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="755:1075" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="1128:1204" ph="{...}" />
+            <marker date="1517100873840" expanded="false" signature="6:126" ph="..." />
+            <marker date="1517100873840" expanded="true" signature="177:1384" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="482:524" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="569:637" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="660:1315" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="684:870" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="686:855" ph="/* child.transform.position = childtran.position; ... */" />
+            <marker date="1517100873840" expanded="true" signature="1021:1111" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="1149:1311" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="1365:1382" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TestProjectile.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="2" />
           <folding>
-            <marker date="1517084638681" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517084638681" expanded="true" signature="124:245" ph="{...}" />
-            <marker date="1517084638681" expanded="true" signature="174:181" ph="{...}" />
-            <marker date="1517084638681" expanded="true" signature="236:243" ph="{...}" />
+            <marker date="1517100468248" expanded="false" signature="6:122" ph="..." />
+            <marker date="1517100468248" expanded="true" signature="165:1259" ph="{...}" />
+            <marker date="1517100468248" expanded="true" signature="377:608" ph="{...}" />
+            <marker date="1517100468248" expanded="true" signature="628:1257" ph="{...}" />
+            <marker date="1517100468248" expanded="true" signature="943:1065" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
           </folding>
-=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/gunControls.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
@@ -619,67 +258,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/weaponFollow.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/weaponFollow.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/09BDEC15-3D4A-4923-9DE8-6334A139CA2F/a0/2ccd4fb2/GraphicsUnit.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/gunControls.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
->>>>>>> f62b5766fcd293e75ae921e44719d9f7457b0e42
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/09BDEC15-3D4A-4923-9DE8-6334A139CA2F/a0/2ccd4fb2/GraphicsUnit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/gunControls.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="2" />
           <folding>
-            <marker date="1517091314551" expanded="true" signature="6:92" ph="..." />
-            <marker date="1517091314551" expanded="true" signature="135:1213" ph="{...}" />
-            <marker date="1517091314551" expanded="true" signature="305:436" ph="{...}" />
-            <marker date="1517091314551" expanded="true" signature="453:1211" ph="{...}" />
-            <marker date="1517091314551" expanded="true" signature="770:886" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
+            <marker date="1517100468248" expanded="false" signature="6:122" ph="..." />
+            <marker date="1517100468248" expanded="true" signature="165:1259" ph="{...}" />
+            <marker date="1517100468248" expanded="true" signature="377:608" ph="{...}" />
+            <marker date="1517100468248" expanded="true" signature="628:1257" ph="{...}" />
+            <marker date="1517100468248" expanded="true" signature="943:1065" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="689">
-          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <caret line="62" column="12" lean-forward="false" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
           <folding>
-            <marker date="1517089841074" expanded="true" signature="6:126" ph="..." />
-            <marker date="1517089841074" expanded="true" signature="177:1206" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="362:468" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="486:1078" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="673:718" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="755:1075" ph="{...}" />
-            <marker date="1517089841074" expanded="true" signature="1128:1204" ph="{...}" />
-=======
-        <state relative-caret-position="864">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-<<<<<<< HEAD
-          <folding>
-            <marker date="1517087854777" expanded="true" signature="6:108" ph="..." />
-            <marker date="1517087854777" expanded="true" signature="159:716" ph="{...}" />
-            <marker date="1517087854777" expanded="true" signature="245:284" ph="{...}" />
-            <marker date="1517087854777" expanded="true" signature="329:394" ph="{...}" />
-            <marker date="1517087854777" expanded="true" signature="412:647" ph="{...}" />
-            <marker date="1517087854777" expanded="true" signature="599:644" ph="{...}" />
-            <marker date="1517087854777" expanded="true" signature="697:714" ph="{...}" />
->>>>>>> 40da30941ddb43331345376869cd8fd9f5ea1012
+            <marker date="1517100873840" expanded="false" signature="6:126" ph="..." />
+            <marker date="1517100873840" expanded="true" signature="177:1384" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="482:524" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="569:637" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="660:1315" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="684:870" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="686:855" ph="/* child.transform.position = childtran.position; ... */" />
+            <marker date="1517100873840" expanded="true" signature="1021:1111" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="1149:1311" ph="{...}" />
+            <marker date="1517100873840" expanded="true" signature="1365:1382" ph="{...}" />
           </folding>
-=======
->>>>>>> f62b5766fcd293e75ae921e44719d9f7457b0e42
         </state>
       </provider>
     </entry>
