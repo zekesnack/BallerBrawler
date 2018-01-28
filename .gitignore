@@ -74,3 +74,5 @@ ehthumbs.db
 [Bb]uild
 sysinfo.txt
 *.stackdump
+networkTest.exe
+networkTest_Data/**
