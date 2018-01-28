@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c878bb4-44c9-48b7-b42c-e93e5957588b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/gunControls.cs" afterPath="$PROJECT_DIR$/Assets/gunControls.cs" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pistol.fbx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pistol.fbx.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" afterPath="$PROJECT_DIR$/Assets/Player.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/gunControls.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/gunControls.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/networkTest_Data/Managed/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/networkTest_Data/Managed/Assembly-CSharp.dll" />
+      <change beforePath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers" afterPath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers" />
+      <change beforePath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers.assets" afterPath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers.assets" />
+      <change beforePath="$PROJECT_DIR$/networkTest_Data/sharedassets0.assets" afterPath="$PROJECT_DIR$/networkTest_Data/sharedassets0.assets" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,17 +24,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gunControls.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/gunControls.cs">
+      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1332">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="1440">
+              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
               <folding>
-                <marker date="1517095480971" expanded="true" signature="6:122" ph="..." />
-                <marker date="1517095480971" expanded="true" signature="168:1283" ph="{...}" />
-                <marker date="1517095480971" expanded="true" signature="388:619" ph="{...}" />
-                <marker date="1517095480971" expanded="true" signature="639:1281" ph="{...}" />
-                <marker date="1517095480971" expanded="true" signature="967:1089" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
+                <marker date="1517097623002" expanded="false" signature="6:108" ph="..." />
+                <marker date="1517097623002" expanded="true" signature="159:1537" ph="{...}" />
+                <marker date="1517097623002" expanded="true" signature="313:352" ph="{...}" />
+                <marker date="1517097623002" expanded="true" signature="397:462" ph="{...}" />
+                <marker date="1517097623002" expanded="true" signature="485:1468" ph="{...}" />
+                <marker date="1517097623002" expanded="true" signature="509:689" ph="{...}" />
+                <marker date="1517097623002" expanded="true" signature="840:885" ph="{...}" />
+                <marker date="1517097623002" expanded="true" signature="1138:1254" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
+                <marker date="1517097623002" expanded="true" signature="1518:1535" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gunControls.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <marker date="1517097259370" expanded="false" signature="6:122" ph="..." />
+                <marker date="1517097259370" expanded="true" signature="165:637" ph="{...}" />
+                <marker date="1517097259370" expanded="true" signature="377:608" ph="{...}" />
+                <marker date="1517097259370" expanded="true" signature="628:635" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,14 +66,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/gunControls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/gunControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/gunControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +123,13 @@
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="BallerBrawler (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -138,7 +176,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5609000" />
+    <option name="totallyTimeSpent" value="7487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -205,13 +243,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <marker date="1517095480971" expanded="true" signature="6:122" ph="..." />
-            <marker date="1517095480971" expanded="true" signature="168:1283" ph="{...}" />
-            <marker date="1517095480971" expanded="true" signature="388:619" ph="{...}" />
-            <marker date="1517095480971" expanded="true" signature="639:1281" ph="{...}" />
-            <marker date="1517095480971" expanded="true" signature="967:1089" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -228,23 +260,41 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/09BDEC15-3D4A-4923-9DE8-6334A139CA2F/a0/2ccd4fb2/GraphicsUnit.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/gunControls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <marker date="1517095480971" expanded="true" signature="6:122" ph="..." />
-            <marker date="1517095480971" expanded="true" signature="168:1283" ph="{...}" />
-            <marker date="1517095480971" expanded="true" signature="388:619" ph="{...}" />
-            <marker date="1517095480971" expanded="true" signature="639:1281" ph="{...}" />
-            <marker date="1517095480971" expanded="true" signature="967:1089" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
-          </folding>
+        <state relative-caret-position="814">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="32" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <marker date="1517097259370" expanded="false" signature="6:122" ph="..." />
+            <marker date="1517097259370" expanded="true" signature="165:637" ph="{...}" />
+            <marker date="1517097259370" expanded="true" signature="377:608" ph="{...}" />
+            <marker date="1517097259370" expanded="true" signature="628:635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="1440">
+          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <folding>
+            <marker date="1517097623002" expanded="false" signature="6:108" ph="..." />
+            <marker date="1517097623002" expanded="true" signature="159:1537" ph="{...}" />
+            <marker date="1517097623002" expanded="true" signature="313:352" ph="{...}" />
+            <marker date="1517097623002" expanded="true" signature="397:462" ph="{...}" />
+            <marker date="1517097623002" expanded="true" signature="485:1468" ph="{...}" />
+            <marker date="1517097623002" expanded="true" signature="509:689" ph="{...}" />
+            <marker date="1517097623002" expanded="true" signature="840:885" ph="{...}" />
+            <marker date="1517097623002" expanded="true" signature="1138:1254" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
+            <marker date="1517097623002" expanded="true" signature="1518:1535" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
