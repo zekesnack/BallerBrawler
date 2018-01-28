@@ -164,10 +164,25 @@
           </e>
           <e p="RotateFlareHolder.cs" t="Include" />
         </e>
+        <e p="Lava_Flowing_Shader" t="Include">
+          <e p="readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="ScrollingUVs_Layers.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Diffuse_Lava_Distort.shader" t="Include" />
+            <e p="Unlit_Lava_Distort.shader" t="Include" />
+            <e p="Unlit_Lava_Distort_Transparent.shader" t="Include" />
+            <e p="Unlit_Lava_Simple.shader" t="Include" />
+          </e>
+        </e>
         <e p="LoadSceneOnClick.cs" t="Include" />
         <e p="mainLoad.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="UI-Default-No-Alpha.shader" t="Include" />
+        </e>
+        <e p="mayan-temple" t="Include">
+          <e p="readme.txt" t="Include" />
         </e>
         <e p="Particlecollection_Free samples" t="Include">
           <e p="Plugins" t="Include">

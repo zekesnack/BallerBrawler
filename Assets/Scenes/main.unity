@@ -281,7 +281,7 @@ MonoBehaviour:
     roll: 0
   - position: {x: 20, y: 10, z: -34.854485}
     roll: 0
-  - position: {x: 0, y: 1, z: -10}
+  - position: {x: 0, y: 1, z: -20}
     roll: 0
 --- !u!4 &468081580
 Transform:
