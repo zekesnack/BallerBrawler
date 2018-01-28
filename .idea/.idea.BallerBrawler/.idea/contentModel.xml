@@ -7,23 +7,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Arena" t="Include">
-          <e p="Example" t="Include">
-            <e p="ImageEffects" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="ScreenSpaceAmbientOcclusion.cs" t="Include" />
-              </e>
-              <e p="Shaders" t="Include">
-                <e p="SSAOShader.shader" t="Include" />
-              </e>
-            </e>
-            <e p="ParticleSystems" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="ParticleSystemMultiplier.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="Cinemachine" t="Include">
           <e p="Base" t="Include">
             <e p="Editor" t="Include">
@@ -156,6 +139,18 @@
         <e p="Fonts" t="Include">
           <e p="Jupiter" t="Include">
             <e p="LICENSE.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Lava_Flowing_Shader" t="Include">
+          <e p="Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="ScrollingUVs_Layers.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Diffuse_Lava_Distort.shader" t="Include" />
+            <e p="Unlit_Lava_Distort.shader" t="Include" />
+            <e p="Unlit_Lava_Distort_Transparent.shader" t="Include" />
+            <e p="Unlit_Lava_Simple.shader" t="Include" />
           </e>
         </e>
         <e p="LoadSceneOnClick.cs" t="Include" />
@@ -381,6 +376,16 @@
           <e p="ShowSliderValue.cs" t="Include" />
           <e p="TestProjectile.cs" t="Include" />
           <e p="TiltWindow.cs" t="Include" />
+        </e>
+        <e p="Shaderquest" t="Include">
+          <e p="Low Poly Free Pack" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="TBS_CameraMovement.cs" t="Include" />
+            </e>
+            <e p="Water" t="Include">
+              <e p="TBS_Water.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Textures and Sprites" t="Include">
           <e p="SF UI" t="Include">

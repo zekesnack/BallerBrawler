@@ -10,7 +10,8 @@ public class PlayerController : NetworkBehaviour {
 	
 	public GameObject projectile;
 	public GameObject bulletSpawnPoint;
-	public float bulletSpeed = 1;
+	public float bulletSpeed = 10;
+	public float bulletDamage = 1;
 	public GameObject bullet;
 	public Transform bulletSpawn;
 	public Vector4 boundingBox;
@@ -78,7 +79,7 @@ public class PlayerController : NetworkBehaviour {
 
 	[ClientRpc]
 	public void RpcDamage() {
-		health++;
+		health+=bulletDamage;
 	}
 	
 	private void OnCollisionEnter(Collision other) {
@@ -91,7 +92,7 @@ public class PlayerController : NetworkBehaviour {
         
         go.transform.position = bulletSpawn.position;
         go.GetComponent<Rigidbody>().velocity = bulletSpawn.transform.forward * 10;
-		go.GetComponent<Rigidbody>().transform.LookAt(bulletSpawn.transform.forward * 10);
+		go.GetComponent<Rigidbody>().transform.LookAt(bulletSpawn.transform.forward * bulletSpeed);
 		
         NetworkServer.Spawn(go);
     }

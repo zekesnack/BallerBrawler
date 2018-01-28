@@ -2,15 +2,281 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c878bb4-44c9-48b7-b42c-e93e5957588b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.BallerBrawler/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/ARENA.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/ARENA.prefab.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Arena Model.blend" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Arena Model.blend.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/Arena Example.unity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/Arena Example.unity.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Scripts.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Shaders.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Shaders/SSAOShader.shader" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Shaders/SSAOShader.shader.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Textures.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Textures/RandomVectors.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ImageEffects/Textures/RandomVectors.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/DustStorm.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/DustStorm.prefab.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleDuststorm.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleDuststorm.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleFirecloud.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleFirecloud.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleFlames.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleFlames.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleGlow.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleGlow.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSmokeBlack.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSmokeBlack.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSmokeVertlit.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSmokeVertlit.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSpark.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Materials/ParticleSpark.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Scripts.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Scripts/ParticleSystemMultiplier.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Scripts/ParticleSystemMultiplier.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleCloudBlack.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleCloudBlack.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleCloudWhite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleCloudWhite.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleFirecloud.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleFirecloud.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleFlamesSheet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/ParticleFlamesSheet.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/Spark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Example/ParticleSystems/Textures/Spark.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/1d86f5d5bc2bda704eef5ff3ff0c2ab2.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/1d86f5d5bc2bda704eef5ff3ff0c2ab2.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/69777695cf0d4f5c010beee49ad17c85.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/69777695cf0d4f5c010beee49ad17c85.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Chair.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Chair.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/ChairStand.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/ChairStand.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Cube_1_2__materials_Cube_1_2_png.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Cube_1_2__materials_Cube_1_2_png.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceBars01.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceBars01.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceBars02.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceBars02.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceGround.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/EntranceGround.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/FenceGlass.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/FenceGlass.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/FenceMetalBars.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/FenceMetalBars.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Floor.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Floor.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/FlyingPlatform.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/FlyingPlatform.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Glass.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Glass.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/LargeFence.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/LargeFence.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Material_002__vintgae-red-holiday-table-cloth-hand-painted-ca-california-line.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Material_002__vintgae-red-holiday-table-cloth-hand-painted-ca-california-line.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/None__Chair_jpg.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/None__Chair_jpg.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/None__entrance2_png.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/None__entrance2_png.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/None__entrance_png.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/None__entrance_png.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Stone-Block-Texture.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/Stone-Block-Texture.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/StoneTiles.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/StoneTiles.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/StoneWalls.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/StoneWalls.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopGlass_Bottom.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopGlass_Bottom.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopGlass_Top.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopGlass_Top.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopPanelFlag.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopPanelFlag.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopPanelWood.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopPanelWood.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopShield.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/TopShield.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/_concrete_11__granite_wall_smooth_dirt_pillar__by_hhh316-d7mhl6y.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/_concrete_11__granite_wall_smooth_dirt_pillar__by_hhh316-d7mhl6y.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/entrance.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/entrance.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/entrance2.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/entrance2.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/fdb6e3a9c6082adca17b5870a3613745.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/fdb6e3a9c6082adca17b5870a3613745.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/fire_PNG6032.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/fire_PNG6032.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/materials_Cube_1_2.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/materials_Cube_1_2.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/unnamed.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/unnamed.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/vintgae-red-holiday-table-cloth-hand-painted-ca-california-linens-usa-home-0039-80e4b212338a73769ea50e3a8b6adfa6.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Materials/vintgae-red-holiday-table-cloth-hand-painted-ca-california-linens-usa-home-0039-80e4b212338a73769ea50e3a8b6adfa6.mat.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Arena.blend" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Arena.blend.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Arena.fbx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Arena.fbx.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Chair.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Corner.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Floor.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Mat.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Octagon Stairs.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Octagon door.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/Screen Texture.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/arena roof.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/base floor and stairs texture.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/cage sides bump.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/cage sides texture.png.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/cage sides texture2.png.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/cage sides.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance lights glow.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance lights.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance lights.png.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance texture 1.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance texture 2.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance texture 3.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance way lights glow.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance way.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance.png.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/entrance2.png.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/floor2.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/main entrance.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/octagon door texture.png.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/octagon mat.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/ramp lights glow.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/ramp.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/roof lights glow.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/roof lights.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/roof.png.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/roof2.png.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/rope.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light - Copy.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light glow.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light glow2.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/.mayaSwatches/spot light2.jpg.swatch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/1d86f5d5bc2bda704eef5ff3ff0c2ab2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/1d86f5d5bc2bda704eef5ff3ff0c2ab2.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/69777695cf0d4f5c010beee49ad17c85.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/69777695cf0d4f5c010beee49ad17c85.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Arena Walls lights.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Arena Walls lights.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Arena Walls.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Arena Walls.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Chair.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Chair.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Floor.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Floor.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Glass.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Glass.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Octagon Stairs.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Octagon Stairs.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Stairs and floor.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Stairs and floor.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Stone-Block-Texture.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/Stone-Block-Texture.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/_concrete_11__granite_wall_smooth_dirt_pillar__by_hhh316-d7mhl6y.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/_concrete_11__granite_wall_smooth_dirt_pillar__by_hhh316-d7mhl6y.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/arena roof.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/arena roof.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/bca1cd109a91e331835761ffc2710f82.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/bca1cd109a91e331835761ffc2710f82.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/c70ff3767fa395d716d866bee8f639bc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/c70ff3767fa395d716d866bee8f639bc.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/cage sides texture.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/cage sides texture.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/cage sides texture2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/cage sides texture2.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance lights glow.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance lights glow.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance lights.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance lights.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 1.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 2.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance texture 3.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance way lights glow.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance way lights glow.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance way.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance way.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/entrance2.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/fdb6e3a9c6082adca17b5870a3613745.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/fdb6e3a9c6082adca17b5870a3613745.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/fire_PNG6032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/fire_PNG6032.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/floor2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/floor2.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/main entrance.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/main entrance.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/materials_Cube_1_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/materials_Cube_1_2.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon cage texture.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon cage texture.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon door texture.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon door texture.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon mat.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/octagon mat.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/ramp lights glow.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/ramp lights glow.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/ramp.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/ramp.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof lights glow.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof lights glow.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof lights.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof lights.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/roof.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/spot light - Copy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/spot light - Copy.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/spot light glow.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/spot light glow.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/vintgae-red-holiday-table-cloth-hand-painted-ca-california-linens-usa-home-0039-80e4b212338a73769ea50e3a8b6adfa6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Models/Textures/vintgae-red-holiday-table-cloth-hand-painted-ca-california-linens-usa-home-0039-80e4b212338a73769ea50e3a8b6adfa6.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/ChairStand.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/ChairStand.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/EntranceGround.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/EntranceGround.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/FenceMetalBars.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/FenceMetalBars.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/Floor.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/Floor.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/IronBars01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/IronBars01.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/IronBars02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/IronBars02.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/StoneTiles.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/StoneTiles.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/StoneWalls.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/StoneWalls.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/TopGlass.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/TopGlass.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/TopPanelFlag.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/TopPanelFlag.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/TopShield.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arena/Textures/TopShield.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/NetworkManager.prefab" afterPath="$PROJECT_DIR$/Assets/NetworkManager.prefab" />
       <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" afterPath="$PROJECT_DIR$/Assets/Player.prefab" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/networkTest_Data.zip" afterPath="$PROJECT_DIR$/networkTest_Data.zip" />
-      <change beforePath="$PROJECT_DIR$/networkTest_Data/Managed/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/networkTest_Data/Managed/Assembly-CSharp.dll" />
-      <change beforePath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers" afterPath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers" />
-      <change beforePath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers.assets" afterPath="$PROJECT_DIR$/networkTest_Data/globalgamemanagers.assets" />
-      <change beforePath="$PROJECT_DIR$/networkTest_Data/level0" afterPath="$PROJECT_DIR$/networkTest_Data/level0" />
-      <change beforePath="$PROJECT_DIR$/networkTest_Data/sharedassets1.assets" afterPath="$PROJECT_DIR$/networkTest_Data/sharedassets1.assets" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/gunControls.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/gunControls.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,43 +287,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="953">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
               <folding>
-                <marker date="1517123831952" expanded="false" signature="6:126" ph="..." />
-                <marker date="1517123831952" expanded="true" signature="177:2581" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="695:855" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="752:852" ph="/* var spawn = Instantiate(spawnAnim); ... */" />
-                <marker date="1517123831952" expanded="true" signature="900:965" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="988:1552" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="1258:1275" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="1459:1549" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="1576:1638" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="1672:1887" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="1927:1943" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="1994:2011" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="2051:2364" ph="{...}" />
-                <marker date="1517123831952" expanded="true" signature="2394:2579" ph="{...}" />
+                <marker date="1517132068357" expanded="false" signature="6:126" ph="..." />
+                <marker date="1517132068357" expanded="true" signature="177:2635" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="728:888" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="785:885" ph="/* var spawn = Instantiate(spawnAnim); ... */" />
+                <marker date="1517132068357" expanded="true" signature="933:998" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="1021:1585" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="1291:1308" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="1492:1582" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="1609:1671" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="1705:1920" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="1960:1988" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="2039:2056" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="2096:2418" ph="{...}" />
+                <marker date="1517132068357" expanded="true" signature="2448:2633" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gunControls.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gunControls.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+            <state relative-caret-position="881">
+              <caret line="61" column="48" lean-forward="false" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
               <folding>
-                <marker date="1517104330430" expanded="true" signature="6:122" ph="..." />
-                <marker date="1517104330430" expanded="true" signature="165:1479" ph="{...}" />
-                <marker date="1517104330430" expanded="true" signature="447:678" ph="{...}" />
-                <marker date="1517104330430" expanded="true" signature="702:1477" ph="{...}" />
-                <marker date="1517104330430" expanded="true" signature="1017:1139" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
-                <marker date="1517104330430" expanded="true" signature="1376:1471" ph="{...}" />
+                <marker date="1517137221162" expanded="true" signature="6:122" ph="..." />
+                <marker date="1517137221162" expanded="true" signature="165:2116" ph="{...}" />
+                <marker date="1517137221162" expanded="true" signature="555:786" ph="{...}" />
+                <marker date="1517137221162" expanded="true" signature="810:1599" ph="{...}" />
+                <marker date="1517137221162" expanded="true" signature="1125:1247" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
+                <marker date="1517137221162" expanded="true" signature="1514:1593" ph="{...}" />
+                <marker date="1517137221162" expanded="true" signature="1627:2114" ph="{...}" />
+                <marker date="1517137221162" expanded="true" signature="1693:2076" ph="{...}" />
+                <marker date="1517137221162" expanded="true" signature="1742:1791" ph="{...}" />
+                <marker date="1517137221162" expanded="true" signature="2017:2066" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -85,6 +355,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>child</find>
+      <find>bulletSpeed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,17 +365,19 @@
     <setting file="file://$PROJECT_DIR$/Assets/LoadSceneOnClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Editor/Windows/AboutWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestProjectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Runtime/Core/CameraState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/gunControls.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/gunControls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/gunControls.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +387,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1220" />
     <option name="y" value="530" />
     <option name="width" value="1400" />
@@ -159,6 +432,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="SearchEverywhereHistoryKey" value=".cs&#9;FILE&#9;file://C:/Users/Dan/Documents/GitHub/BallerBrawler/Assets/Cinemachine/Base/Editor/Windows/AboutWindow.cs&#10;gunCon&#9;FILE&#9;file://C:/Users/Dan/Documents/GitHub/BallerBrawler/Assets/Scripts/gunControls.cs" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,7 +472,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18475000" />
+    <option name="totallyTimeSpent" value="22224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -210,7 +484,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3872" height="2092" extended-state="7" />
+    <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -261,14 +535,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/weaponFollow.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/09BDEC15-3D4A-4923-9DE8-6334A139CA2F/a0/2ccd4fb2/GraphicsUnit.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/gunControls.cs" />
@@ -487,6 +753,117 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Health.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Editor/Windows/AboutWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <marker date="1517118516507" expanded="false" signature="6:54" ph="..." />
+            <marker date="1517118516507" expanded="true" signature="84:5597" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="153:5595" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="430:613" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="894:1319" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="1016:1191" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="1228:1309" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="1349:4827" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="1406:1459" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="1498:1634" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="1672:1854" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="1893:2036" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="2074:2259" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="2332:4466" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="2413:3235" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="3655:3785" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="3876:4011" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="4097:4452" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="4649:4817" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="4909:4989" ph="{...}" />
+            <marker date="1517118516507" expanded="true" signature="5039:5589" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Runtime/Core/CameraState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <marker date="1517118516610" expanded="false" signature="6:79" ph="..." />
+            <marker date="1517118516610" expanded="true" signature="102:15667" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="109:812" ph="/// The output of the Cinemachine engine for a specific virtual camera.  The information ... " />
+            <marker date="1517118516610" expanded="true" signature="842:15665" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="857:927" ph="/// Camera Lens Settings. ... " />
+            <marker date="1517118516610" expanded="true" signature="984:1075" ph="/// Which way is up.  World space unit vector. ... " />
+            <marker date="1517118516610" expanded="true" signature="1134:1409" ph="/// The world space focus point of the camera.  What the camera wants to look at. ... " />
+            <marker date="1517118516610" expanded="true" signature="1472:1582" ph="/// Returns true if this state has a valid ReferenceLookAt value. ... " />
+            <marker date="1517118516610" expanded="true" signature="1701:1813" ph="/// This constant represents &quot;no point in space&quot; or &quot;no direction&quot;. ... " />
+            <marker date="1517118516610" expanded="true" signature="1910:2013" ph="/// Raw (un-corrected) world space position of this camera ... " />
+            <marker date="1517118516610" expanded="true" signature="2072:2178" ph="/// Raw (un-corrected) world space orientation of this camera ... " />
+            <marker date="1517118516610" expanded="true" signature="2243:2460" ph="///This is a way for the Body component to bypass aim damping, ... " />
+            <marker date="1517118516610" expanded="true" signature="2531:2690" ph="/// Subjective estimation of how &quot;good&quot; the shot is. ... " />
+            <marker date="1517118516610" expanded="true" signature="2747:3018" ph="/// Position correction.  This will be added to the raw position. ... " />
+            <marker date="1517118516610" expanded="true" signature="3084:3361" ph="/// Orientation correction.  This will be added to the raw orientation. ... " />
+            <marker date="1517118516610" expanded="true" signature="3433:3515" ph="/// Position with correction applied. ... " />
+            <marker date="1517118516610" expanded="true" signature="3619:3704" ph="/// Orientation with correction applied. ... " />
+            <marker date="1517118516610" expanded="true" signature="3820:3939" ph="/// Position with correction applied.  This is what the final camera gets. ... " />
+            <marker date="1517118516610" expanded="true" signature="4039:4171" ph="/// Orientation with correction and dutch applied.  This is what the final camera gets. ... " />
+            <marker date="1517118516610" expanded="true" signature="4214:4499" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="4240:4489" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="4509:4583" ph="/// State with default values ... " />
+            <marker date="1517118516610" expanded="true" signature="4625:5256" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="4651:5246" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="5266:5438" ph="///Opaque structure represent extra blendable stuff and its weight. ... " />
+            <marker date="1517118516610" expanded="true" signature="5477:6131" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="5749:5998" ph="///Constructor with specific values ... " />
+            <marker date="1517118516610" expanded="true" signature="6063:6121" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="6375:6587" ph="///The number of custom blendables that will be applied to the camera.   ... " />
+            <marker date="1517118516610" expanded="true" signature="6658:7039" ph="///Get a custom blendable that will be applied to the camera.   ... " />
+            <marker date="1517118516610" expanded="true" signature="7100:7630" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="7137:7620" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="7678:8242" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="8014:8209" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="8252:8662" ph="///Add a custom blendable to the pot for eventual application to the camera. ... " />
+            <marker date="1517118516610" expanded="true" signature="8720:9588" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="8964:9086" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="9113:9577" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="9598:9981" ph="///Intelligently blend the contents of two states. ... " />
+            <marker date="1517118516610" expanded="true" signature="10069:15050" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="11085:12578" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="11371:12036" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="12667:12944" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="12961:14329" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="13220:13498" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="13519:14315" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="14465:14709" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="14774:15014" ph="{...}" />
+            <marker date="1517118516610" expanded="true" signature="15133:15659" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+          <folding>
+            <marker date="1517132068357" expanded="false" signature="6:126" ph="..." />
+            <marker date="1517132068357" expanded="true" signature="177:2635" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="728:888" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="785:885" ph="/* var spawn = Instantiate(spawnAnim); ... */" />
+            <marker date="1517132068357" expanded="true" signature="933:998" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="1021:1585" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="1291:1308" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="1492:1582" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="1609:1671" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="1705:1920" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="1960:1988" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="2039:2056" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="2096:2418" ph="{...}" />
+            <marker date="1517132068357" expanded="true" signature="2448:2633" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -504,38 +881,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/gunControls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="881">
+          <caret line="61" column="48" lean-forward="false" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
           <folding>
-            <marker date="1517104330430" expanded="true" signature="6:122" ph="..." />
-            <marker date="1517104330430" expanded="true" signature="165:1479" ph="{...}" />
-            <marker date="1517104330430" expanded="true" signature="447:678" ph="{...}" />
-            <marker date="1517104330430" expanded="true" signature="702:1477" ph="{...}" />
-            <marker date="1517104330430" expanded="true" signature="1017:1139" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
-            <marker date="1517104330430" expanded="true" signature="1376:1471" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <marker date="1517123831952" expanded="false" signature="6:126" ph="..." />
-            <marker date="1517123831952" expanded="true" signature="177:2581" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="695:855" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="752:852" ph="/* var spawn = Instantiate(spawnAnim); ... */" />
-            <marker date="1517123831952" expanded="true" signature="900:965" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="988:1552" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="1258:1275" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="1459:1549" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="1576:1638" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="1672:1887" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="1927:1943" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="1994:2011" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="2051:2364" ph="{...}" />
-            <marker date="1517123831952" expanded="true" signature="2394:2579" ph="{...}" />
+            <marker date="1517137221162" expanded="true" signature="6:122" ph="..." />
+            <marker date="1517137221162" expanded="true" signature="165:2116" ph="{...}" />
+            <marker date="1517137221162" expanded="true" signature="555:786" ph="{...}" />
+            <marker date="1517137221162" expanded="true" signature="810:1599" ph="{...}" />
+            <marker date="1517137221162" expanded="true" signature="1125:1247" ph="/* we normalize the new direction so you can make it the arm's length ... */" />
+            <marker date="1517137221162" expanded="true" signature="1514:1593" ph="{...}" />
+            <marker date="1517137221162" expanded="true" signature="1627:2114" ph="{...}" />
+            <marker date="1517137221162" expanded="true" signature="1693:2076" ph="{...}" />
+            <marker date="1517137221162" expanded="true" signature="1742:1791" ph="{...}" />
+            <marker date="1517137221162" expanded="true" signature="2017:2066" ph="{...}" />
           </folding>
         </state>
       </provider>
