@@ -64,7 +64,6 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	void FixedUpdate () {
-		
 		transform.localScale = new Vector3(1 + 0.1F * health, 1 + 0.1F * health, 1 + 0.1F * health);
 		
 		if (transform.position.x < boundingBox.x || transform.position.x > boundingBox.z ||
@@ -86,7 +85,7 @@ public class PlayerController : NetworkBehaviour {
 		if (!isServer) return;
 		if (lives <= 1) {
 			CmdDeath();
-			gameOver();
+			CmdgameOver();
 		}
 		else {
 			print("else " + lives);
@@ -147,11 +146,15 @@ public class PlayerController : NetworkBehaviour {
 		NetworkServer.Spawn(go);
 	}
 
-	void gameOver() {
-		print(lives);
-		endGameTimer();
+	[Command]
+	void CmdgameOver() {
+		StartCoroutine("endGameTimer");
+		
+		var go = Instantiate(fireworks);
+		
+		NetworkServer.Spawn(go);
+		
 		Destroy(gameObject);
-		Instantiate(fireworks);
 	}
 	
 	IEnumerable endGameTimer() {

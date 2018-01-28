@@ -68,4 +68,8 @@ public class SimpleMatchMaker : MonoBehaviour {
     public void setCharacter(int id) {
         NetworkManager.singleton.playerPrefab.GetComponent<PlayerController>().clas = id;
     }
+
+    public void setMap(string id) {
+        NetworkManager.singleton.onlineScene = id;
+    }
 }
