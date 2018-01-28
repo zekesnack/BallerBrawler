@@ -1548,6 +1548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxJumps: 2
   maxLives: 3
+  fireworks: {fileID: 1529346900646540, guid: f84c9d08380504b3cacfb91e6a345927, type: 2}
   boundingBox: {x: -30, y: -10, z: 30, w: 10}
   jumpHeight: 13
   manager: {fileID: 114852642799432134, guid: e3cfe4d3fda212c448ead3ae16e13654, type: 2}
