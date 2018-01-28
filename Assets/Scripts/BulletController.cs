@@ -3,15 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletController : MonoBehaviour {
-	void Start () {
-		
-	}
-	
-	void Update () {
-		
-	}
-
 	private void OnCollisionEnter(Collision other) {
-		other.gameObject.GetComponent<Rigidbody>().AddForce(GetComponent<Rigidbody>().velocity);
+		if (other.gameObject.CompareTag("Player")) {
+			other.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+			other.gameObject.GetComponent<Rigidbody>().AddForce(GetComponent<Rigidbody>().velocity * other.transform.localScale.magnitude);
+		}
+		Destroy(gameObject);
 	}
 }
