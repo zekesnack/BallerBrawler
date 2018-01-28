@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Xml;
+//using System.Diagnostics.Eventing.Reader;
+//using System.Xml;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : NetworkBehaviour {
 	public int maxJumps = 2;
-	public int maxLives = 3;
+	public int maxLives = 4;
+	
+	public GameObject fireworks;
 	
 	public Vector4 boundingBox;
 	Rigidbody rb;
@@ -80,9 +84,15 @@ public class PlayerController : NetworkBehaviour {
 
 	private void death() {
 		if (!isServer) return;
-		
-		RpcRespawn();
-		CmdDeath();
+		if (lives <= 1) {
+			CmdDeath();
+			gameOver();
+		}
+		else {
+			print("else " + lives);
+			RpcRespawn();
+			CmdDeath();
+		}
 	}
 
 	[ClientRpc]
@@ -135,5 +145,17 @@ public class PlayerController : NetworkBehaviour {
 		go.transform.LookAt(new Vector3(0, 0, 0));
 
 		NetworkServer.Spawn(go);
+	}
+
+	void gameOver() {
+		print(lives);
+		endGameTimer();
+		Destroy(gameObject);
+		Instantiate(fireworks);
+	}
+	
+	IEnumerable endGameTimer() {
+		yield return new WaitForSeconds(5);
+		SceneManager.LoadScene(0);
 	}
 }

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 87a5332fba27ce74d88680b228ba995c
-timeCreated: 1517090159
+timeCreated: 1517121777
 licenseType: Free
 MonoImporter:
   externalObjects: {}
@@ -10,6 +10,14 @@ MonoImporter:
       type: 2}
   - bulletSpawnPoint: {fileID: 1324440493475168, guid: 080c5a747f2cdfe4cb52406ccacd4ee3,
       type: 2}
+  - fireworks: {fileID: 1529346900646540, guid: f84c9d08380504b3cacfb91e6a345927,
+      type: 2}
+  - bullet: {instanceID: 0}
+  - bulletSpawn: {instanceID: 0}
+  - manager: {instanceID: 0}
+  - child: {instanceID: 0}
+  - spawnAnim: {instanceID: 0}
+  - deathAnim: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
