@@ -8,6 +8,7 @@ public class PlayerController : NetworkBehaviour {
 	public GameObject projectile;
 	public GameObject bulletSpawnPoint;
 	public float bulletSpeed = 1;
+	private int i = 0;
 	Rigidbody rb;
 
 	private int jumps = 0;
@@ -24,7 +25,7 @@ public class PlayerController : NetworkBehaviour {
 		
 	}
 
-	void Update () {
+	void FixedUpdate () {
 		if (!isLocalPlayer)
 			return;
 		
@@ -36,10 +37,12 @@ public class PlayerController : NetworkBehaviour {
 		}
 
 		if (Input.GetMouseButtonDown(0)) {
-			Transform bulletspawn = bulletSpawnPoint.GetComponent<Transform>();
+			++i;
+			Debug.Log("mouse click" + i);
 			GameObject proj = Instantiate(projectile);
-			proj.transform.position = bulletspawn.position;
-			proj.GetComponent<Rigidbody>().velocity = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized * bulletSpeed;
+//			proj.GetComponent<Rigidbody>().position = bulletSpawnPoint.GetComponent<Rigidbody>().position;
+			proj.GetComponent<Rigidbody>().velocity = new Vector3(2,0,0);
+			
 
 		}
 	}
