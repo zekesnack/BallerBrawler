@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Dan\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_BallerBrawler.446009461.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Dan\Documents\GitHub\BallerBrawler" t="IncludeRecursive">
+    <e p="C:\Users\htesb_000\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_BallerBrawler.-340372947.00" t="ExcludeRecursive" />
+    <e p="C:\Users\htesb_000\Documents\GitHub\BallerBrawler" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -197,6 +197,7 @@
           <e p="BulletController.cs" t="Include" />
           <e p="gunControls.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="TestProjectile.cs" t="Include" />
         </e>
       </e>
       <e p="BallerBrawler.sln" t="IncludeFlat" />

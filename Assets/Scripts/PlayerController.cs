@@ -1,9 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Xml;
 using UnityEngine;
 using UnityEngine.Networking;
 
 public class PlayerController : NetworkBehaviour {
+	public GameObject projectile;
+	public GameObject bulletSpawnPoint;
+	public float bulletSpeed = 1;
+	
 	Rigidbody rb;
 
 	private int jumps = 0;
@@ -15,11 +20,13 @@ public class PlayerController : NetworkBehaviour {
 	public float jumpHeight = 13;
 	
 	void Start () {
+		
 		rb = GetComponent<Rigidbody> ();
 	}
 
 	public override void OnStartLocalPlayer() {
 		GetComponent<MeshRenderer>().material.color = Color.black;
+		
 	}
 
 	void FixedUpdate () {
