@@ -17,6 +17,11 @@ public class gunControls : MonoBehaviour {
     
     public Transform bulletSpawn;
 
+    private bool isFiring = false;
+    private bool isInCoroutine = false;
+
+    public float fireRate = 1;
+
     void Start() {
         // if the sword is child object, this is the transform of the character (or shoulder)
         Player = transform.parent.transform;
@@ -36,8 +41,29 @@ public class gunControls : MonoBehaviour {
 
         transform.LookAt((transform.position - transform.parent.position).normalized * 500);
         
-        if (Input.GetMouseButtonDown(0)) {
-            transform.parent.gameObject.GetComponent<PlayerController>().CmdFire();
+        if (Input.GetAxis("Fire1") > 0 && !isFiring && !isInCoroutine) {
+            isFiring = true;
+            StartCoroutine("fireGun");
         }
+    }
+
+    IEnumerator fireGun() {
+        isInCoroutine = true;
+        
+        while (isFiring) {
+            if (Input.GetAxis("Fire1") < 0.01) {
+                isFiring = false;
+            }
+            
+            yield return new WaitForSeconds(fireRate);
+            transform.parent.gameObject.GetComponent<PlayerController>().CmdFire();
+            
+            
+            if (Input.GetAxis("Fire1") < 0.01) {
+                isFiring = false;
+            }
+        }
+
+        isInCoroutine = false;
     }
 }
