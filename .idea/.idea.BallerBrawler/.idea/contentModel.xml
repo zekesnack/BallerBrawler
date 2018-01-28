@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Dan\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_BallerBrawler.446009461.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Dan\Documents\GitHub\BallerBrawler" t="IncludeRecursive">
+    <e p="C:\Users\gross\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_BallerBrawler.-179968862.00" t="ExcludeRecursive" />
+    <e p="C:\Users\gross\Documents\GitHub\BallerBrawler" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -24,38 +24,14 @@
             </e>
           </e>
         </e>
-        <e p="Particlecollection_Free samples" t="Include">
-          <e p="Plugins" t="Include">
-            <e p="Effect" t="Include">
-              <e p="Editor" t="Include">
-                <e p="EffectControllerInspector.cs" t="Include" />
-                <e p="EffectToolBar.cs" t="Include" />
-                <e p="RenderEffectInspector.cs" t="Include" />
-                <e p="ShaderCustomEditor" t="Include">
-                  <e p="ShaderMaterialsEditor.cs" t="Include" />
-                </e>
-                <e p="XUIUtils.cs" t="Include" />
-              </e>
-              <e p="Script" t="Include">
-                <e p="CameraTarget.cs" t="Include" />
-                <e p="EffectController.cs" t="Include" />
-                <e p="EffectDemo.cs" t="Include" />
-                <e p="EffectShaderPropertyStr.cs" t="Include" />
-                <e p="RenderEffect.cs" t="Include" />
-                <e p="TransformExtension.cs" t="Include" />
-              </e>
-              <e p="Shader" t="Include">
-                <e p="effect_distortion_mask.shader" t="Include" />
-                <e p="ParticleAddEffect.shader" t="Include" />
-                <e p="ParticleAddSoftEffect.shader" t="Include" />
-                <e p="ParticleBlendEffect.shader" t="Include" />
-                <e p="ParticlePremultiplyBlend.shader" t="Include" />
-                <e p="Toon Additive.shader" t="Include" />
-                <e p="Toon Blended Premmultiply.shader" t="Include" />
-              </e>
-            </e>
+        <e p="Fonts" t="Include">
+          <e p="Jupiter" t="Include">
+            <e p="LICENSE.txt" t="Include" />
           </e>
-          <e p="READ ME.txt" t="Include" />
+        </e>
+        <e p="LoadSceneOnClick.cs" t="Include" />
+        <e p="Materials" t="Include">
+          <e p="UI-Default-No-Alpha.shader" t="Include" />
         </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
@@ -227,10 +203,28 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ActiveStateToggler.cs" t="Include" />
+          <e p="ApplicationManager.cs" t="Include" />
           <e p="BulletController.cs" t="Include" />
+          <e p="ChangeColor.cs" t="Include" />
+          <e p="DragMe.cs" t="Include" />
+          <e p="DragPanel.cs" t="Include" />
+          <e p="DropMe.cs" t="Include" />
           <e p="gunControls.cs" t="Include" />
+          <e p="PanelManager.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="ResizePanel.cs" t="Include" />
+          <e p="ScrollDetailTexture.cs" t="Include" />
+          <e p="ShowSliderValue.cs" t="Include" />
           <e p="TestProjectile.cs" t="Include" />
+          <e p="TiltWindow.cs" t="Include" />
+        </e>
+        <e p="Textures and Sprites" t="Include">
+          <e p="SF UI" t="Include">
+            <e p="Background" t="Include">
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="BallerBrawler.sln" t="IncludeFlat" />

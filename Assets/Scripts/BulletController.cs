@@ -14,6 +14,7 @@ public class BulletController : NetworkBehaviour {
 
 	private void OnTriggerEnter(Collider other) {
 		if (other.gameObject.CompareTag("Player")) {
+
 			damage(other.gameObject);
 			other.gameObject.GetComponent<Rigidbody>().AddForce(GetComponent<Rigidbody>().velocity * other.gameObject.GetComponent<PlayerController>().health * 10);
 		}
