@@ -11,12 +11,15 @@ public class BulletController : NetworkBehaviour {
 
 		other.GetComponent<PlayerController>().RpcDamage();
 	}
-	
-	private void OnCollisionEnter(Collision other) {
+
+	private void OnTriggerEnter(Collider other) {
 		if (other.gameObject.CompareTag("Player")) {
 			damage(other.gameObject);
 			other.gameObject.GetComponent<Rigidbody>().AddForce(GetComponent<Rigidbody>().velocity * other.gameObject.GetComponent<PlayerController>().health * 10);
 		}
-		Destroy(gameObject);
+
+		if (!other.gameObject.CompareTag("Bullet")) {
+			Destroy(gameObject);
+		}
 	}
 }

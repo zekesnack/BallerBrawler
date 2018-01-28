@@ -683,9 +683,15 @@ MonoBehaviour:
   bulletSpeed: 1
   bullet: {fileID: 1462008822415310, guid: 6992b49fa2b3f624c9a79f372606749b, type: 2}
   bulletSpawn: {fileID: 4578734697195444}
+  boundingBox: {x: -30, y: -10, z: 30, w: 10}
   maxJumps: 2
   child: {fileID: 1368395921753278}
   jumpHeight: 13
+  manager: {fileID: 114852642799432134, guid: e3cfe4d3fda212c448ead3ae16e13654, type: 2}
+  maxLives: 3
+  health: 0
+  spawnAnim: {fileID: 100000, guid: b61f84ac228bf9f4e9f19310d98d6383, type: 2}
+  deathAnim: {fileID: 1843755023118514, guid: 0b68c142c5998ee409d558dd7ef5409d, type: 2}
 --- !u!114 &114756316705141466
 MonoBehaviour:
   m_ObjectHideFlags: 1

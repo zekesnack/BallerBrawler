@@ -11,6 +11,8 @@ public class PlayerController : NetworkBehaviour {
 
 	public GameObject bullet;
 	public Transform bulletSpawn;
+
+	public Vector4 boundingBox;
 	
 	Rigidbody rb;
 
@@ -22,20 +24,38 @@ public class PlayerController : NetworkBehaviour {
 
 	public float jumpHeight = 13;
 
+	public NetworkManager manager;
+
+	public int maxLives = 3;
+
+	private int lives;
+
 	[SyncVar]
 	public float health = 0;
+
+	public GameObject spawnAnim;
+
+	public GameObject deathAnim;
 	
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
+		lives = maxLives;
+//		var spawn = Instantiate(spawnAnim);
+//		spawn.transform.localScale *= 3;
+//		Destroy(spawn, 1f);
 	}
 
 	public override void OnStartLocalPlayer() {
 		GetComponent<MeshRenderer>().material.color = Color.black;
-		
 	}
 
 	void FixedUpdate () {
 		transform.localScale = new Vector3(1 + 0.1F * health, 1 + 0.1F * health, 1 + 0.1F * health);
+		
+		if (transform.position.x < boundingBox.x || transform.position.x > boundingBox.z ||
+		    transform.position.y < boundingBox.y || transform.position.y > boundingBox.w) {
+			death();
+		}
 		
 		if (!isLocalPlayer) {
 			return;
@@ -49,17 +69,31 @@ public class PlayerController : NetworkBehaviour {
 		}
 	}
 
-	private void OnCollisionEnter(Collision other) {
-		jumps = 0;
+	private void death() {
+		if (!isServer) return;
+		
+		lives--;
+		
+		RpcRespawn();
+		CmdDeath();
+	}
+
+	[ClientRpc]
+	void RpcRespawn() {
+		if (!isLocalPlayer) return;
+		
+		var spawn = Random.Range(0, manager.spawnPrefabs.Count - 1);
+		transform.position = manager.spawnPrefabs[spawn].transform.position;
+		rb.velocity = Vector3.zero;
 	}
 
 	[ClientRpc]
 	public void RpcDamage() {
-		if (!isServer) {
-			return;
-		}
-
 		health++;
+	}
+	
+	private void OnCollisionEnter(Collision other) {
+		jumps = 0;
 	}
 	
 	[Command]
@@ -71,4 +105,16 @@ public class PlayerController : NetworkBehaviour {
 
         NetworkServer.Spawn(go);
     }
+
+	[Command]
+	void CmdDeath() {
+		health = 0;
+		
+		var go = Instantiate(deathAnim);
+         
+		go.transform.position = transform.position;
+		go.transform.LookAt(new Vector3(0, 0, 0));
+
+		NetworkServer.Spawn(go);
+	}
 }
