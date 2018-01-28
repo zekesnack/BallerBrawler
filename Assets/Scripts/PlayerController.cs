@@ -8,7 +8,10 @@ public class PlayerController : NetworkBehaviour {
 	public GameObject projectile;
 	public GameObject bulletSpawnPoint;
 	public float bulletSpeed = 1;
-	private int i = 0;
+
+	public GameObject bullet;
+	public Transform bulletSpawn;
+	
 	Rigidbody rb;
 
 	private int jumps = 0;
@@ -20,10 +23,9 @@ public class PlayerController : NetworkBehaviour {
 	public float jumpHeight = 13;
 
 	[SyncVar]
-	public Transform childtran;
+	public float health = 0;
 	
 	void Start () {
-		
 		rb = GetComponent<Rigidbody> ();
 	}
 
@@ -33,10 +35,9 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	void FixedUpdate () {
+		transform.localScale = new Vector3(1 + 0.1F * health, 1 + 0.1F * health, 1 + 0.1F * health);
+		
 		if (!isLocalPlayer) {
-//			child.transform.position = childtran.position;
-//			child.transform.rotation = childtran.rotation;
-//			child.transform.localScale = childtran.transform.localScale;
 			return;
 		}
 
@@ -46,20 +47,28 @@ public class PlayerController : NetworkBehaviour {
 			rb.velocity = new Vector3 (rb.velocity.x, jumpHeight, rb.velocity.z);
 			jumps++;
 		}
-
-
-		if (Input.GetMouseButtonDown(0)) {
-			++i;
-			Debug.Log("mouse click" + i);
-			GameObject proj = Instantiate(projectile);
-			proj.GetComponent<Rigidbody>().velocity = new Vector3(2,0,0);
-			
-
-		}
-
 	}
 
 	private void OnCollisionEnter(Collision other) {
 		jumps = 0;
 	}
+
+	[ClientRpc]
+	public void RpcDamage() {
+		if (!isServer) {
+			return;
+		}
+
+		health++;
+	}
+	
+	[Command]
+    public void CmdFire() {
+        var go = Instantiate(bullet);
+         
+        go.transform.position = bulletSpawn.position;
+        go.GetComponent<Rigidbody>().velocity = bulletSpawn.transform.forward * 10;
+
+        NetworkServer.Spawn(go);
+    }
 }

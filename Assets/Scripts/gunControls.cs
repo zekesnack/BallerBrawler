@@ -13,12 +13,16 @@ public class gunControls : MonoBehaviour {
 
     private bool isPlayer;
 
+    public GameObject bullet;
+    
+    public Transform bulletSpawn;
+
     void Start() {
         // if the sword is child object, this is the transform of the character (or shoulder)
         Player = transform.parent.transform;
         isPlayer = Player.gameObject.GetComponent<NetworkBehaviour>().isLocalPlayer;
     }
-
+    
     void Update() {
         if (!isPlayer) return;
         // Get the direction between the shoulder and mouse (aka the target position)
@@ -31,5 +35,9 @@ public class gunControls : MonoBehaviour {
         transform.position = Player.position + (armLength * shoulderToMouseDir.normalized);
 
         transform.LookAt((transform.position - transform.parent.position).normalized * 500);
+        
+        if (Input.GetMouseButtonDown(0)) {
+            transform.parent.gameObject.GetComponent<PlayerController>().CmdFire();
+        }
     }
 }
