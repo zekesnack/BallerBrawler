@@ -64,7 +64,7 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	void FixedUpdate () {
-		transform.localScale = new Vector3(1 + 0.1F * health, 1 + 0.1F * health, 1 + 0.1F * health);
+		transform.localScale = new Vector3(1 + 0.1F * Mathf.Pow(2, health), 1 + 0.1F * Mathf.Pow(2, health), 1 + 0.1F * Mathf.Pow(2, health));
 		
 		if (transform.position.x < boundingBox.x || transform.position.x > boundingBox.z ||
 		    transform.position.y < boundingBox.y || transform.position.y > boundingBox.w) {
@@ -153,6 +153,10 @@ public class PlayerController : NetworkBehaviour {
 		var go = Instantiate(fireworks);
 		
 		NetworkServer.Spawn(go);
+		
+		NetworkManager.Shutdown();
+
+		SceneManager.LoadScene("empty");
 		
 		Destroy(gameObject);
 	}
