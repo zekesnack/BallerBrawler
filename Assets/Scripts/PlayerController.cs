@@ -7,6 +7,7 @@ using UnityEngine.Networking;
 public class PlayerController : NetworkBehaviour {
 	public GameObject projectile;
 	public GameObject bulletSpawnPoint;
+	public GameObject fireworks;
 	public float bulletSpeed = 1;
 
 	public GameObject bullet;
@@ -71,9 +72,11 @@ public class PlayerController : NetworkBehaviour {
 
 	private void death() {
 		if (!isServer) return;
-		
+		if (lives == 1) {
+			
+		}
 		lives--;
-		
+		gameOver();
 		RpcRespawn();
 		CmdDeath();
 	}
@@ -116,5 +119,9 @@ public class PlayerController : NetworkBehaviour {
 		go.transform.LookAt(new Vector3(0, 0, 0));
 
 		NetworkServer.Spawn(go);
+	}
+
+	void gameOver() {
+		Instantiate(fireworks);
 	}
 }
