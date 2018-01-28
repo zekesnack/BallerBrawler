@@ -22,7 +22,7 @@ public class gunControls : MonoBehaviour {
         Player = transform.parent.transform;
         isPlayer = Player.gameObject.GetComponent<NetworkBehaviour>().isLocalPlayer;
     }
-
+    
     void Update() {
         if (!isPlayer) return;
         // Get the direction between the shoulder and mouse (aka the target position)
@@ -36,10 +36,8 @@ public class gunControls : MonoBehaviour {
 
         transform.LookAt((transform.position - transform.parent.position).normalized * 500);
         
-        if (Input.GetAxis("Fire1") > 0) {
-            var go = Instantiate(bullet);
-            go.transform.position = bulletSpawn.position;
-            go.GetComponent<Rigidbody>().velocity = bulletSpawn.transform.forward * 10;
+        if (Input.GetMouseButtonDown(0)) {
+            transform.parent.gameObject.GetComponent<PlayerController>().CmdFire();
         }
     }
 }
