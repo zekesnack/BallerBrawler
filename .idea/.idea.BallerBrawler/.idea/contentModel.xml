@@ -153,8 +153,6 @@
             <e p="Unlit_Lava_Simple.shader" t="Include" />
           </e>
         </e>
-        <e p="LoadSceneOnClick.cs" t="Include" />
-        <e p="mainLoad.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="UI-Default-No-Alpha.shader" t="Include" />
         </e>
@@ -369,6 +367,8 @@
           <e p="DragPanel.cs" t="Include" />
           <e p="DropMe.cs" t="Include" />
           <e p="gunControls.cs" t="Include" />
+          <e p="LoadSceneOnClick.cs" t="Include" />
+          <e p="mainLoad.cs" t="Include" />
           <e p="PanelManager.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="ResizePanel.cs" t="Include" />
