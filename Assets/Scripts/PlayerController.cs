@@ -153,10 +153,8 @@ public class PlayerController : NetworkBehaviour {
 		var go = Instantiate(fireworks);
 		
 		NetworkServer.Spawn(go);
-		
-		NetworkManager.Shutdown();
 
-		SceneManager.LoadScene("empty");
+		SceneManager.LoadScene("Menu 3D");
 		
 		Destroy(gameObject);
 	}
