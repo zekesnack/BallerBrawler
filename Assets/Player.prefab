@@ -753,6 +753,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a5332fba27ce74d88680b228ba995c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectile: {fileID: 1877657880450708, guid: 64445596008e5b745899ecff2622d56b, type: 2}
+  bulletSpawnPoint: {fileID: 1996502992472538, guid: c89a6eab476c1b04facdb483b212705e,
+    type: 2}
+  bulletSpeed: 1
   maxJumps: 2
 --- !u!114 &114823028440224756
 MonoBehaviour:

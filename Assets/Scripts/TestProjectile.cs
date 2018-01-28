@@ -17,6 +17,6 @@ public class TestProjectile : MonoBehaviour {
 	private void OnCollisionEnter(Collision other) {
 		Destroy(gameObject);
 		other.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
-		throw new System.NotImplementedException();
+		other.rigidbody.AddForce(GetComponent<Rigidbody>().velocity * 10);
 	}
 }

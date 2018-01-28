@@ -40,7 +40,6 @@ public class PlayerController : NetworkBehaviour {
 			++i;
 			Debug.Log("mouse click" + i);
 			GameObject proj = Instantiate(projectile);
-//			proj.GetComponent<Rigidbody>().position = bulletSpawnPoint.GetComponent<Rigidbody>().position;
 			proj.GetComponent<Rigidbody>().velocity = new Vector3(2,0,0);
 			
 
