@@ -35,6 +35,11 @@ public class PlayerController : NetworkBehaviour {
 	private gunControls gunControls;
 	
 	void Start () {
+		GameObject g = GameObject.FindGameObjectWithTag("Fire");
+		if (g != null) {
+			boundingBox = g.GetComponent<BoundingBox>().bounds;
+		}
+
 		rb = GetComponent<Rigidbody> ();
 		lives = maxLives;
 //		var spawn = Instantiate(spawnAnim);
@@ -82,6 +87,9 @@ public class PlayerController : NetworkBehaviour {
 	}
 
 	private void death() {
+		if (lives <= 1) {
+			StartCoroutine("endGameTimer");
+		}
 		if (!isServer) return;
 		if (lives <= 1) {
 			CmdDeath();
@@ -148,18 +156,12 @@ public class PlayerController : NetworkBehaviour {
 
 	[Command]
 	void CmdgameOver() {
-		StartCoroutine("endGameTimer");
-		
 		var go = Instantiate(fireworks);
 		
 		NetworkServer.Spawn(go);
-
-		SceneManager.LoadScene("Menu 3D");
-		
-		Destroy(gameObject);
 	}
 	
-	IEnumerable endGameTimer() {
+	IEnumerator endGameTimer() {
 		yield return new WaitForSeconds(5);
 		SceneManager.LoadScene(0);
 	}
