@@ -13,6 +13,10 @@ public class gunControls : MonoBehaviour {
 
     private bool isPlayer;
 
+    public GameObject bullet;
+    
+    public Transform bulletSpawn;
+
     void Start() {
         // if the sword is child object, this is the transform of the character (or shoulder)
         Player = transform.parent.transform;
@@ -31,5 +35,11 @@ public class gunControls : MonoBehaviour {
         transform.position = Player.position + (armLength * shoulderToMouseDir.normalized);
 
         transform.LookAt((transform.position - transform.parent.position).normalized * 500);
+        
+        if (Input.GetAxis("Fire1") > 0) {
+            var go = Instantiate(bullet);
+            go.transform.position = bulletSpawn.position;
+            go.GetComponent<Rigidbody>().velocity = bulletSpawn.transform.forward * 10;
+        }
     }
 }

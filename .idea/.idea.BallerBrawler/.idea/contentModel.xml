@@ -194,6 +194,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BulletController.cs" t="Include" />
           <e p="gunControls.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
         </e>
